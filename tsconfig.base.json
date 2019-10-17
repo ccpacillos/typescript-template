@@ -18,8 +18,9 @@
     "baseUrl": ".",
     "outDir": "./build",
     "paths": {
-      "@graphql/*": ["typings/graphql/*"]
+      "@typings/*": ["typings/*"]
     }
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["typings/**/*"]
 }
