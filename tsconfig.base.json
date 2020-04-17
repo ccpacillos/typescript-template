@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["es2018", "esnext.asynciterable"],
-    "target": "es2018",
+    "lib": ["es2020", "esnext.asynciterable", "esnext"],
+    "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -17,10 +17,7 @@
     "types": ["node"],
     "baseUrl": ".",
     "outDir": "./build",
-    "paths": {
-      "@typings/*": ["typings/*"]
-    }
+    "paths": {}
   },
-  "exclude": ["node_modules"],
-  "include": ["typings/**/*"]
+  "exclude": ["node_modules"]
 }
