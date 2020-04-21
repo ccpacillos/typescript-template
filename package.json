@@ -1,7 +1,7 @@
 {
-  "name": "graphql-server",
+  "name": "ts-project-template",
   "version": "0.0.1",
-  "description": "GraphQL server template in typescript.",
+  "description": "Typescript project template.",
   "scripts": {
     "lint": "eslint --ext .ts,.tsx src/** --cache && tsc --noEmit --skipLibCheck",
     "resolve-paths": "tscpaths -p tsconfig.build.json -s ./src -o ./build",
